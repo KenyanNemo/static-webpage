@@ -48,11 +48,35 @@ function App() {
        <h1 >Send money with love</h1> 
        <img className='userImg' src='https://assets-global.website-files.com/634a9930c5b24337cbbac93b/63c57ffb287b3418d4d91e95_Home-Hero-Image-p-500.jpg' alt='user' height='auto' width='100%'/>
        </div>
-       <form className='exchangeCard'>
-        <label>Exchange Rate</label><br/>
-        <label>Send money to your loved ones <br/>
-        We make sure more of your money goes to those you love, not to high service fees.</label>
-       </form>
+       <div className='exchangeCard'>
+        <h3>Exchange Rate</h3>
+        <h4>Send money to your loved ones</h4>
+        <p>We make sure more of your money goes to those you love, not to high service fees.</p>
+        <form >
+          <div className='formGroup'>
+          <input type='text' id='send' name='send' placeholder='0.00'/>
+          <label>You send:</label>
+          <div className='dropdown2'>
+          <button className='dropdownB' ><img src='https://img.freepik.com/free-vector/illustration-spain-flag_53876-18168.jpg?w=1060&t=st=1682342320~exp=1682342920~hmac=463e1c1083f4aae08988c4846062d52c80dc2670059027b74a71743c97c48fea' height='35' width='40'/></button>
+          <div className='dropdownContent'>
+          <img src='https://img.freepik.com/free-vector/illustration-france-flag_53876-27099.jpg?w=1060&t=st=1682342425~exp=1682343025~hmac=b61180c05d409a31d08cd82f8ca4be1715a1056fc2217e257219fb2f148ba526' height='35' width='40'/>
+          <img src='https://img.freepik.com/free-vector/illustration-italy-flag_53876-27098.jpg?w=1060&t=st=1682342513~exp=1682343113~hmac=d570621bd25aeae3f995cf5193ee208de2d82fe62b6002aeda7c601ebc5ce2d3' height='35' width='40'/>
+          </div>
+          </div> 
+          </div> 
+          <div className='formGroup'>
+          <input type='text' id='send' name='send' placeholder='0.00'/>
+          <label>They get:</label>
+          <div className='dropdown2'>
+          <button className='dropdownB' ><img src='https://img.freepik.com/free-vector/illustration-spain-flag_53876-18168.jpg?w=1060&t=st=1682342320~exp=1682342920~hmac=463e1c1083f4aae08988c4846062d52c80dc2670059027b74a71743c97c48fea' height='35' width='40'/></button>
+          <div className='dropdownContent'>
+          <img src='https://img.freepik.com/free-vector/illustration-france-flag_53876-27099.jpg?w=1060&t=st=1682342425~exp=1682343025~hmac=b61180c05d409a31d08cd82f8ca4be1715a1056fc2217e257219fb2f148ba526' height='35' width='40'/>
+          <img src='https://img.freepik.com/free-vector/illustration-italy-flag_53876-27098.jpg?w=1060&t=st=1682342513~exp=1682343113~hmac=d570621bd25aeae3f995cf5193ee208de2d82fe62b6002aeda7c601ebc5ce2d3' height='35' width='40'/>
+          </div>
+          </div> 
+          </div>
+        </form>
+       </div>
 
        <div className="divider1">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -154,29 +178,29 @@ function App() {
           <div className='list'>
           <h3>COMPANY</h3>
           <p>
-            Our Story<br/>
-            Security<br/>
-            Careers<br/>
-            Countries
+            <a href='#'>Our Story</a><br/>
+            <a href='#'>Security</a><br/>
+            <a href='#'>Careers </a><br/>
+            <a href='#'>Countries</a>
           </p>
           </div>
           <div className='list'>
           <h3>SUPPORT</h3>
           <p>
-            FAQ<br/>
-            Contact Us<br/>
-            Send Money to the Philippines<br/>
-             Send Money to Senegal<br/>
+            <a href='#'>FAQ</a><br/>
+            <a href='#'>Contact Us</a><br/>
+            <a href='#'>Send Money to the Philippines</a><br/>
+            <a href='#'>Send Money to Senegal</a><br/>
             </p>
           </div>
           <div className='list'>
           <h3>LEGAL</h3>
           <p>
-            Customer Complaints <br/>
-            Terms and Conditions<br/>
-            Privacy Policy <br/>
-            Address: <br/>
-            51 Eastcheap London England EC3M 1DT:<br/>
+            <a href='#'>Customer Complaints </a><br/>
+            <a href='#'>Terms and Conditions</a><br/>
+            <a href='#'>Privacy Policy</a> <br/>
+            <a href='#'>Address: <br/>
+            51 Eastcheap London England EC3M 1DT: </a><br/>
           </p>
           </div>
         
